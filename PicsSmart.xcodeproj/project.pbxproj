@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA1E71221B327580007E28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E71121B327580007E28E /* AppDelegate.swift */; };
+		BCA1E71421B327580007E28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E71321B327580007E28E /* ViewController.swift */; };
+		BCA1E71721B327580007E28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA1E71521B327580007E28E /* Main.storyboard */; };
+		BCA1E71A21B327580007E28E /* PicsSmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E71821B327580007E28E /* PicsSmart.xcdatamodeld */; };
+		BCA1E71C21B327590007E28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA1E71B21B327590007E28E /* Assets.xcassets */; };
+		BCA1E71F21B327590007E28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA1E71D21B327590007E28E /* LaunchScreen.storyboard */; };
+		BCA1E72A21B3275A0007E28E /* PicsSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E72921B3275A0007E28E /* PicsSmartTests.swift */; };
+		BCA1E73521B3275A0007E28E /* PicsSmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E73421B3275A0007E28E /* PicsSmartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA1E72621B3275A0007E28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA1E70621B327580007E28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA1E70D21B327580007E28E;
+			remoteInfo = PicsSmart;
+		};
+		BCA1E73121B3275A0007E28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA1E70621B327580007E28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA1E70D21B327580007E28E;
+			remoteInfo = PicsSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA1E70E21B327580007E28E /* PicsSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA1E71121B327580007E28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA1E71321B327580007E28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA1E71621B327580007E28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA1E71921B327580007E28E /* PicsSmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PicsSmart.xcdatamodel; sourceTree = "<group>"; };
+		BCA1E71B21B327590007E28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA1E71E21B327590007E28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA1E72021B327590007E28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA1E72521B3275A0007E28E /* PicsSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicsSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA1E72921B3275A0007E28E /* PicsSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsSmartTests.swift; sourceTree = "<group>"; };
+		BCA1E72B21B3275A0007E28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA1E73021B3275A0007E28E /* PicsSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicsSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA1E73421B3275A0007E28E /* PicsSmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsSmartUITests.swift; sourceTree = "<group>"; };
+		BCA1E73621B3275A0007E28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA1E70B21B327580007E28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA1E72221B3275A0007E28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA1E72D21B3275A0007E28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA1E70521B327580007E28E = {
+			isa = PBXGroup;
+			children = (
+				BCA1E71021B327580007E28E /* PicsSmart */,
+				BCA1E72821B3275A0007E28E /* PicsSmartTests */,
+				BCA1E73321B3275A0007E28E /* PicsSmartUITests */,
+				BCA1E70F21B327580007E28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA1E70F21B327580007E28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1E70E21B327580007E28E /* PicsSmart.app */,
+				BCA1E72521B3275A0007E28E /* PicsSmartTests.xctest */,
+				BCA1E73021B3275A0007E28E /* PicsSmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA1E71021B327580007E28E /* PicsSmart */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1E71121B327580007E28E /* AppDelegate.swift */,
+				BCA1E71321B327580007E28E /* ViewController.swift */,
+				BCA1E71521B327580007E28E /* Main.storyboard */,
+				BCA1E71B21B327590007E28E /* Assets.xcassets */,
+				BCA1E71D21B327590007E28E /* LaunchScreen.storyboard */,
+				BCA1E72021B327590007E28E /* Info.plist */,
+				BCA1E71821B327580007E28E /* PicsSmart.xcdatamodeld */,
+			);
+			path = PicsSmart;
+			sourceTree = "<group>";
+		};
+		BCA1E72821B3275A0007E28E /* PicsSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1E72921B3275A0007E28E /* PicsSmartTests.swift */,
+				BCA1E72B21B3275A0007E28E /* Info.plist */,
+			);
+			path = PicsSmartTests;
+			sourceTree = "<group>";
+		};
+		BCA1E73321B3275A0007E28E /* PicsSmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1E73421B3275A0007E28E /* PicsSmartUITests.swift */,
+				BCA1E73621B3275A0007E28E /* Info.plist */,
+			);
+			path = PicsSmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA1E70D21B327580007E28E /* PicsSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA1E73921B3275A0007E28E /* Build configuration list for PBXNativeTarget "PicsSmart" */;
+			buildPhases = (
+				BCA1E70A21B327580007E28E /* Sources */,
+				BCA1E70B21B327580007E28E /* Frameworks */,
+				BCA1E70C21B327580007E28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicsSmart;
+			productName = PicsSmart;
+			productReference = BCA1E70E21B327580007E28E /* PicsSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA1E72421B3275A0007E28E /* PicsSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA1E73C21B3275A0007E28E /* Build configuration list for PBXNativeTarget "PicsSmartTests" */;
+			buildPhases = (
+				BCA1E72121B3275A0007E28E /* Sources */,
+				BCA1E72221B3275A0007E28E /* Frameworks */,
+				BCA1E72321B3275A0007E28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA1E72721B3275A0007E28E /* PBXTargetDependency */,
+			);
+			name = PicsSmartTests;
+			productName = PicsSmartTests;
+			productReference = BCA1E72521B3275A0007E28E /* PicsSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCA1E72F21B3275A0007E28E /* PicsSmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA1E73F21B3275A0007E28E /* Build configuration list for PBXNativeTarget "PicsSmartUITests" */;
+			buildPhases = (
+				BCA1E72C21B3275A0007E28E /* Sources */,
+				BCA1E72D21B3275A0007E28E /* Frameworks */,
+				BCA1E72E21B3275A0007E28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA1E73221B3275A0007E28E /* PBXTargetDependency */,
+			);
+			name = PicsSmartUITests;
+			productName = PicsSmartUITests;
+			productReference = BCA1E73021B3275A0007E28E /* PicsSmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA1E70621B327580007E28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mountain Viewer";
+				TargetAttributes = {
+					BCA1E70D21B327580007E28E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BCA1E72421B3275A0007E28E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BCA1E70D21B327580007E28E;
+					};
+					BCA1E72F21B3275A0007E28E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BCA1E70D21B327580007E28E;
+					};
+				};
+			};
+			buildConfigurationList = BCA1E70921B327580007E28E /* Build configuration list for PBXProject "PicsSmart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA1E70521B327580007E28E;
+			productRefGroup = BCA1E70F21B327580007E28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA1E70D21B327580007E28E /* PicsSmart */,
+				BCA1E72421B3275A0007E28E /* PicsSmartTests */,
+				BCA1E72F21B3275A0007E28E /* PicsSmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA1E70C21B327580007E28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1E71F21B327590007E28E /* LaunchScreen.storyboard in Resources */,
+				BCA1E71C21B327590007E28E /* Assets.xcassets in Resources */,
+				BCA1E71721B327580007E28E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA1E72321B3275A0007E28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA1E72E21B3275A0007E28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA1E70A21B327580007E28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1E71421B327580007E28E /* ViewController.swift in Sources */,
+				BCA1E71221B327580007E28E /* AppDelegate.swift in Sources */,
+				BCA1E71A21B327580007E28E /* PicsSmart.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA1E72121B3275A0007E28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1E72A21B3275A0007E28E /* PicsSmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA1E72C21B3275A0007E28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1E73521B3275A0007E28E /* PicsSmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA1E72721B3275A0007E28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA1E70D21B327580007E28E /* PicsSmart */;
+			targetProxy = BCA1E72621B3275A0007E28E /* PBXContainerItemProxy */;
+		};
+		BCA1E73221B3275A0007E28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA1E70D21B327580007E28E /* PicsSmart */;
+			targetProxy = BCA1E73121B3275A0007E28E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA1E71521B327580007E28E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA1E71621B327580007E28E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA1E71D21B327590007E28E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA1E71E21B327590007E28E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA1E73721B3275A0007E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA1E73821B3275A0007E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA1E73A21B3275A0007E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicsSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yar.PicsSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA1E73B21B3275A0007E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicsSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yar.PicsSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCA1E73D21B3275A0007E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicsSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yar.PicsSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicsSmart.app/PicsSmart";
+			};
+			name = Debug;
+		};
+		BCA1E73E21B3275A0007E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicsSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yar.PicsSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicsSmart.app/PicsSmart";
+			};
+			name = Release;
+		};
+		BCA1E74021B3275A0007E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicsSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yar.PicsSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicsSmart;
+			};
+			name = Debug;
+		};
+		BCA1E74121B3275A0007E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicsSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yar.PicsSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicsSmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA1E70921B327580007E28E /* Build configuration list for PBXProject "PicsSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA1E73721B3275A0007E28E /* Debug */,
+				BCA1E73821B3275A0007E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA1E73921B3275A0007E28E /* Build configuration list for PBXNativeTarget "PicsSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA1E73A21B3275A0007E28E /* Debug */,
+				BCA1E73B21B3275A0007E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA1E73C21B3275A0007E28E /* Build configuration list for PBXNativeTarget "PicsSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA1E73D21B3275A0007E28E /* Debug */,
+				BCA1E73E21B3275A0007E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA1E73F21B3275A0007E28E /* Build configuration list for PBXNativeTarget "PicsSmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA1E74021B3275A0007E28E /* Debug */,
+				BCA1E74121B3275A0007E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCA1E71821B327580007E28E /* PicsSmart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCA1E71921B327580007E28E /* PicsSmart.xcdatamodel */,
+			);
+			currentVersion = BCA1E71921B327580007E28E /* PicsSmart.xcdatamodel */;
+			path = PicsSmart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCA1E70621B327580007E28E /* Project object */;
+}
