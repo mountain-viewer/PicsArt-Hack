@@ -2,7 +2,7 @@
 //  PicsSmartUITests.swift
 //  PicsSmartUITests
 //
-//  Created by Iaroslav Spirin on 12/1/18.
+//  Created by Yaroslav Spirin on 12/1/18.
 //  Copyright © 2018 Mountain Viewer. All rights reserved.
 //
 

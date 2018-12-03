@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PicsSmart
 //
-//  Created by Iaroslav Spirin on 12/1/18.
+//  Created by Yaroslav Spirin on 12/1/18.
 //  Copyright © 2018 Mountain Viewer. All rights reserved.
 //
 
@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UITabBar.appearance().tintColor = UIColor(red: 235.0 / 255.0,
+                                                  green: 90.0 / 255.0,
+                                                  blue: 90.0 / 255.0,
+                                                  alpha: 1.0)
         return true
     }
 
